@@ -152,3 +152,13 @@ CORS_ALLOW_ALL_ORIGINS = True  # in production, restrict to your frontend domain
 STATICFILES_DIRS = [
     BASE_DIR / "static",  # make sure this folder exists
 ]
+# ---------------------------------------------------
+# VALID college name
+# ---------------------------------------------------
+VALID_COLLEGE_DOMAINS = [
+    "glbitm.ac.in",
+    "iitd.ac.in",
+    "iiit.ac.in",
+    # add more colleges here
+]
+
