@@ -1,5 +1,35 @@
-﻿.env
+# Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
 
+# Environment files
+.env
+*.env
+
+# Editor/IDE folders
 .vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# SQLite DB (if used for local dev)
+*.sqlite3
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+
+# Coverage / testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Render specific (if any temporary files used)
+build/
